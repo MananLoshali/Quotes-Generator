@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./image1.jpg");
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;
+  display: grid;
+  place-items: center;
+}
+
+
+.quotes{
+  width: 60%;
+  height: 50vh;
+}
+
+.new-quotes{
+  width: 60%;
+  height: 30%;
+  background-color: lightgreen;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.p-quotes{
+  font-size: 10vh;
+  font-style: italic;
+  margin-left: 10%;
+  color: darkorange;
+}
+
+.quotes-author{
+  font-size: 5vh;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 50%;
+  margin-top: 5vh;
+  color: red;
+}
+
